@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "showdown": "^2.1.0"
+  },
+  "scripts": {
+    "start": "bash script.sh"
+  }
+}

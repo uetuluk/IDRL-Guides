@@ -1,0 +1,107 @@
+<h1 id="aitoolsuserguide"><strong>AI Tools User Guide</strong></h1>
+<p>Version: October 17, 2023</p>
+<h2 id="introduction"><strong>Introduction</strong></h2>
+<p>Welcome to the suite of AI tools available on this computer. There are four distinctive tools, each with unique capabilities to enhance your projects. All tools are conveniently located at: C:/.</p>
+<p>The following tools are available:</p>
+<ol>
+<li>Stable Diffusion Webui</li>
+<li>Text Generation Webui</li>
+<li>Audiocraft</li>
+<li>SoftVC VITS Singing Voice Conversion Fork</li>
+</ol>
+<h2 id="1stablediffusionwebui"><strong>1. Stable Diffusion Webui</strong></h2>
+<h3 id="overview"><strong>Overview</strong></h3>
+<p>The Stable Diffusion Web UI is an extraordinary tool geared towards fostering creativity in image-generation projects. It is intuitive, user-friendly, and revolutionizes the creation of AI-generated imagery through a versatile browser interface.</p>
+<h3 id="gettingstarted"><strong>Getting Started</strong></h3>
+<ul>
+<li>Open the Windows Powershell application by pressing <strong><code>Win</code></strong> and typing <strong><code>Powershell</code></strong>.</li>
+<li>Execute the following command:</li>
+</ul>
+<pre><code class="powershell language-powershell">  Set-Location -Path "C:\sd-webui"
+  if ($?) {
+    Start-Process -FilePath "C:\sd-webui\run.bat"
+  }
+</code></pre>
+<ul>
+<li><p>The application will subsequently open in an Edge window.</p></li>
+<li><p>You can close the Terminal and Safari windows when you are done.</p></li>
+</ul>
+<h3 id="keyfeatures"><strong>Key Features</strong></h3>
+<ul>
+<li>Rich functionalities such as text to image, image to image modes, outpainting, and inpainting.</li>
+<li>Various already installed models like SD XL Base + Refiner, SD 1.5, and SD 2.1.</li>
+<li>Controlnet installed.</li>
+</ul>
+<h3 id="resources"><strong>Resources</strong></h3>
+<ul>
+<li>Learn more about using this tool <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features">here</a>.</li>
+</ul>
+<h2 id="2textgenerationwebui"><strong>2. Text Generation Webui</strong></h2>
+<h3 id="overview-1"><strong>Overview</strong></h3>
+<p>This powerful tool comes with a Gradio web UI, facilitating interaction with Large Language Models and supporting a myriad of models, thus simplifying text generation tasks.</p>
+<h3 id="gettingstarted-1"><strong>Getting Started</strong></h3>
+<ul>
+<li>Open the Windows Powershell application by pressing <strong><code>Win</code></strong> and typing <strong><code>Powershell</code></strong>.</li>
+<li>Execute the following command:</li>
+</ul>
+<pre><code class="powershell language-powershell">  Set-Location -Path "C:\text-generation-webui"
+  if ($?) {
+    Start-Process -FilePath "C:\text-generation-webui\start_windows.bat"
+  }
+</code></pre>
+<ul>
+<li>Access the application <a href="http://localhost:7860/">here</a>.</li>
+<li>The link <strong>might be different</strong> if you are using multiple tools.</li>
+<li>You can close the Terminal and Safari windows when you are done.</li>
+</ul>
+<h3 id="keyfeatures-1"><strong>Key Features</strong></h3>
+<ul>
+<li>Supports various models such as transformers, GPTQ, AWQ, and Llama.</li>
+<li>The following models are already installed.</li>
+<li>CodeLLAMA 13B Instruct</li>
+<li>CodeLLAMA 34B Instruct + Python</li>
+<li>LLAMA 2 13B Chat</li>
+<li>LLAMA 2 70B Chat</li>
+</ul>
+<h3 id="resources-1"><strong>Resources</strong></h3>
+<ul>
+<li>Dive deeper into the tool's capabilities <a href="https://github.com/oobabooga/text-generation-webui/tree/main/docs">here</a>.</li>
+</ul>
+<h2 id="3audiocraft"><strong>3. Audiocraft</strong></h2>
+<h3 id="overview-2"><strong>Overview</strong></h3>
+<p>Audiocraft specializes in audio processing and generation. With cutting-edge tools like EnCodec and MusicGen, it serves as a pivotal resource for modern audio processing, focusing mainly on music generation and audio compression.</p>
+<h3 id="gettingstarted-2"><strong>Getting Started</strong></h3>
+<ul>
+<li>Open the Windows Powershell application by pressing <strong><code>Win</code></strong> and typing <strong><code>Powershell</code></strong>.</li>
+<li>Execute the following command:</li>
+</ul>
+<pre><code class="powershell language-powershell">  Set-Location -Path "C:\audiocraft"
+  if ($?) {
+    Start-Process -FilePath "C:\audiocraft\start.bat"
+  }
+</code></pre>
+<ul>
+<li>Access the application <a href="http://localhost:7860/">here</a>.</li>
+<li>The link <strong>might be different</strong> if you are using multiple tools.</li>
+<li>You can close the Terminal and Safari windows when you are done.</li>
+</ul>
+<h3 id="keyfeatures-2"><strong>Key Features</strong></h3>
+<ul>
+<li>Encompasses advanced tools such as EnCodec audio compressor/tokenizer and MusicGen.</li>
+<li>All the MusicGen tools are already downloaded, just select and use.</li>
+</ul>
+<h3 id="resources-2"><strong>Resources</strong></h3>
+<ul>
+<li>Explore more about Audiocraft <a href="https://github.com/facebookresearch/audiocraft">here</a>.</li>
+</ul>
+<h2 id="4softvcvitssingingvoiceconversionfork"><strong>4. SoftVC VITS Singing Voice Conversion Fork</strong></h2>
+<h3 id="overview-3"><strong>Overview</strong></h3>
+<p>This enhanced fork offers real-time support, an improved interface, and additional features compared to its predecessor, aiming for a seamless user experience in voice conversion tasks.</p>
+<h3 id="gettingstarted-3"><strong>Getting Started</strong></h3>
+<ul>
+<li>Open the so-vits-svc-fork application by pressing <strong><code>Win</code></strong> and typing <strong><code>so-vits-svc-fork</code></strong>.</li>
+</ul>
+<h3 id="resources-3"><strong>Resources</strong></h3>
+<ul>
+<li>Learn more about this enhanced fork <a href="https://github.com/voicepaw/so-vits-svc-fork">here</a>.</li>
+</ul>
