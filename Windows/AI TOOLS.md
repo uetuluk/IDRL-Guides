@@ -39,6 +39,10 @@ The Stable Diffusion Web UI is an extraordinary tool geared towards fostering cr
 - Various already installed models like SD XL Base + Refiner, SD 1.5, and SD 2.1.
 - Controlnet installed.
 
+### **Additional Requirements**
+
+- You can contact us at [Shanghai.RITS@nyu.edu](mailto:Shanghai.RITS@nyu.edu) if you need any other models or extensions installed. You won't be able to install them yourself even if the UI shows you the option.
+
 ### **Resources**
 
 - Learn more about using this tool [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features).
@@ -71,6 +75,10 @@ This powerful tool comes with a Gradio web UI, facilitating interaction with Lar
   - CodeLLAMA 34B Instruct + Python
   - LLAMA 2 13B Chat
   - LLAMA 2 70B Chat
+
+### **Additional Requirements**
+
+- You can contact us at [Shanghai.RITS@nyu.edu](mailto:Shanghai.RITS@nyu.edu) if you need any other models or extensions installed. You won't be able to install them yourself even if the UI shows you the option. 
 
 ### **Resources**
 
