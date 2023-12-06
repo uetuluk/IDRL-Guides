@@ -9,7 +9,7 @@ convert_md_to_html() {
     local html_file="${md_file%.md}.html"
 
     echo "Converting $md_file to $html_file..."
-    showdown makehtml -i "$md_file" -o "$html_file"
+    showdown makehtml -i "$md_file" -o "$html_file" -c simplifiedAutoLink
 }
 
 # Monitor .md files in the current directory and subdirectories

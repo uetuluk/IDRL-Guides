@@ -1,0 +1,14 @@
+Location for the IDRL Guides.
+
+## Requirements
+
+* Node
+* fswatch
+
+## Usage
+
+```bash
+npm install
+brew install fswatch
+npm start
+```
