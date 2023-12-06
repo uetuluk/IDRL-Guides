@@ -1,6 +1,6 @@
 # **AI Tools User Guide**
 
-Version: October 17, 2023
+Version: December 6, 2023
 
 ## **Introduction**
 
@@ -8,12 +8,12 @@ Welcome to the suite of AI tools available on this computer. There are four dist
 
 The following tools are available:
 
-1. Stable Diffusion Webui
-2. Text Generation Webui
-3. Audiocraft
-4. SoftVC VITS Singing Voice Conversion Fork
+1. [Stable Diffusion Webui](#sd)
+2. [Text Generation Webui](#tg)
+3. [Audiocraft](#audio)
+4. [SoftVC VITS Singing Voice Conversion Fork](#sovit)
 
-## **1. Stable Diffusion Webui**
+<h2 id="sd"><b>1. Stable Diffusion Webui</b></h2>
 
 ### **Overview**
 
@@ -40,7 +40,7 @@ The Stable Diffusion Web UI is an extraordinary tool geared towards fostering cr
 
 - Learn more about using this tool [here](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features).
 
-## **2. Text Generation Webui**
+<h2 id="tg"><b>2. Text Generation Webui</h2></b>
 
 ### **Overview**
 
@@ -70,7 +70,7 @@ This powerful tool comes with a Gradio web UI, facilitating interaction with Lar
 
 - Dive deeper into the tool's capabilities [here](https://github.com/oobabooga/text-generation-webui/tree/main/docs).
 
-## **3. Audiocraft**
+<h2 id="audio"><b>3. Audiocraft</b></h2>
 
 ### **Overview**
 
@@ -96,7 +96,7 @@ Audiocraft specializes in audio processing and generation. With cutting-edge too
 
 - Explore more about Audiocraft [here](https://github.com/facebookresearch/audiocraft).
 
-## **4. SoftVC VITS Singing Voice Conversion Fork**
+<h2 id="sovit"><b>4. SoftVC VITS Singing Voice Conversion Fork</b></h2>
 
 ### **Overview**
 
